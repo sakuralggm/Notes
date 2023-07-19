@@ -1,0 +1,7 @@
+{
+  "name": "getNoteBookData",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

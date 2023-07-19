@@ -1,0 +1,1861 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 2C60-D6CF
+D:.
+│  App.vue
+│  file.txt
+│  index.html
+│  main.js
+│  manifest.json
+│  pages.json
+│  uni.scss
+│  
+├─.hbuilderx
+│      launch.json
+│      
+├─pages
+│  ├─detail
+│  │      detail.vue
+│  │      
+│  ├─edit
+│  │      edit.vue
+│  │      
+│  ├─index
+│  │      index.vue
+│  │      
+│  ├─search
+│  │      search.vue
+│  │      
+│  ├─test
+│  │      test.vue
+│  │      
+│  ├─ToDo
+│  │      ToDo.vue
+│  │      
+│  └─user
+│          user.vue
+│          
+├─static
+│  ├─iconfont
+│  │      demo.css
+│  │      demo_index.html
+│  │      iconfont.css
+│  │      iconfont.js
+│  │      iconfont.json
+│  │      iconfont.ttf
+│  │      iconfont.woff
+│  │      iconfont.woff2
+│  │      
+│  └─images
+│          0.jpg
+│          history.png
+│          home-h.png
+│          home.png
+│          logo.png
+│          mylogo.png
+│          no-result.png
+│          nodata.png
+│          nohis.png
+│          nopic.jpg
+│          notebook.png
+│          notes-h.png
+│          notes.png
+│          select.png
+│          todo-h.png
+│          todo.png
+│          user-h.png
+│          user.png
+│          
+├─uniCloud-aliyun
+│  ├─cloudfunctions
+│  │  ├─addBook
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─addNote
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─deletaNote
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─deleteBook
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─getBookName
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─getData
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─getDetail
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─getNoteBookData
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  ├─getSearch
+│  │  │      index.js
+│  │  │      package.json
+│  │  │      
+│  │  └─updateNote
+│  │          index.js
+│  │          package.json
+│  │          
+│  └─database
+│          JQL查询.jql
+│          
+├─uni_modules
+│  ├─uni-badge
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-badge
+│  │              uni-badge.vue
+│  │              
+│  ├─uni-breadcrumb
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-breadcrumb
+│  │      │      uni-breadcrumb.vue
+│  │      │      
+│  │      └─uni-breadcrumb-item
+│  │              uni-breadcrumb-item.vue
+│  │              
+│  ├─uni-calendar
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-calendar
+│  │          │  calendar.js
+│  │          │  uni-calendar-item.vue
+│  │          │  uni-calendar.vue
+│  │          │  util.js
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-card
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-card
+│  │              uni-card.vue
+│  │              
+│  ├─uni-collapse
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-collapse
+│  │      │      uni-collapse.vue
+│  │      │      
+│  │      └─uni-collapse-item
+│  │              uni-collapse-item.vue
+│  │              
+│  ├─uni-combox
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-combox
+│  │              uni-combox.vue
+│  │              
+│  ├─uni-countdown
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-countdown
+│  │          │  uni-countdown.vue
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-data-checkbox
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-data-checkbox
+│  │              uni-data-checkbox.vue
+│  │              
+│  ├─uni-data-picker
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-data-picker
+│  │      │      keypress.js
+│  │      │      uni-data-picker.vue
+│  │      │      
+│  │      └─uni-data-pickerview
+│  │              uni-data-picker.js
+│  │              uni-data-pickerview.vue
+│  │              
+│  ├─uni-data-select
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-data-select
+│  │              uni-data-select.vue
+│  │              
+│  ├─uni-dateformat
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-dateformat
+│  │              date-format.js
+│  │              uni-dateformat.vue
+│  │              
+│  ├─uni-datetime-picker
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-datetime-picker
+│  │          │  calendar-item.vue
+│  │          │  calendar.vue
+│  │          │  keypress.js
+│  │          │  time-picker.vue
+│  │          │  uni-datetime-picker.vue
+│  │          │  util.js
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-drawer
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-drawer
+│  │              keypress.js
+│  │              uni-drawer.vue
+│  │              
+│  ├─uni-easyinput
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-easyinput
+│  │              common.js
+│  │              uni-easyinput.vue
+│  │              
+│  ├─uni-fab
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-fab
+│  │              uni-fab.vue
+│  │              
+│  ├─uni-fav
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-fav
+│  │          │  uni-fav.vue
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-file-picker
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-file-picker
+│  │              choose-and-upload-file.js
+│  │              uni-file-picker.vue
+│  │              upload-file.vue
+│  │              upload-image.vue
+│  │              utils.js
+│  │              
+│  ├─uni-forms
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-forms
+│  │      │      uni-forms.vue
+│  │      │      utils.js
+│  │      │      validate.js
+│  │      │      
+│  │      └─uni-forms-item
+│  │              uni-forms-item.vue
+│  │              
+│  ├─uni-goods-nav
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-goods-nav
+│  │          │  uni-goods-nav.vue
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-grid
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-grid
+│  │      │      uni-grid.vue
+│  │      │      
+│  │      └─uni-grid-item
+│  │              uni-grid-item.vue
+│  │              
+│  ├─uni-group
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-group
+│  │              uni-group.vue
+│  │              
+│  ├─uni-icons
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-icons
+│  │              icons.js
+│  │              uni-icons.vue
+│  │              uniicons.css
+│  │              uniicons.ttf
+│  │              
+│  ├─uni-indexed-list
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-indexed-list
+│  │              uni-indexed-list-item.vue
+│  │              uni-indexed-list.vue
+│  │              
+│  ├─uni-link
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-link
+│  │              uni-link.vue
+│  │              
+│  ├─uni-list
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-list
+│  │      │      uni-list.vue
+│  │      │      uni-refresh.vue
+│  │      │      uni-refresh.wxs
+│  │      │      
+│  │      ├─uni-list-ad
+│  │      │      uni-list-ad.vue
+│  │      │      
+│  │      ├─uni-list-chat
+│  │      │      uni-list-chat.scss
+│  │      │      uni-list-chat.vue
+│  │      │      
+│  │      └─uni-list-item
+│  │              uni-list-item.vue
+│  │              
+│  ├─uni-load-more
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-load-more
+│  │          │  uni-load-more.vue
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-nav-bar
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-nav-bar
+│  │              uni-nav-bar.vue
+│  │              uni-status-bar.vue
+│  │              
+│  ├─uni-notice-bar
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-notice-bar
+│  │              uni-notice-bar.vue
+│  │              
+│  ├─uni-number-box
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-number-box
+│  │              uni-number-box.vue
+│  │              
+│  ├─uni-pagination
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-pagination
+│  │          │  uni-pagination.vue
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  es.json
+│  │                  fr.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-popup
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-popup
+│  │      │  │  keypress.js
+│  │      │  │  popup.js
+│  │      │  │  uni-popup.vue
+│  │      │  │  
+│  │      │  └─i18n
+│  │      │          en.json
+│  │      │          index.js
+│  │      │          zh-Hans.json
+│  │      │          zh-Hant.json
+│  │      │          
+│  │      ├─uni-popup-dialog
+│  │      │      keypress.js
+│  │      │      uni-popup-dialog.vue
+│  │      │      
+│  │      ├─uni-popup-message
+│  │      │      uni-popup-message.vue
+│  │      │      
+│  │      └─uni-popup-share
+│  │              uni-popup-share.vue
+│  │              
+│  ├─uni-rate
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-rate
+│  │              uni-rate.vue
+│  │              
+│  ├─uni-row
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-col
+│  │      │      uni-col.vue
+│  │      │      
+│  │      └─uni-row
+│  │              uni-row.vue
+│  │              
+│  ├─uni-scss
+│  │  │  changelog.md
+│  │  │  index.scss
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  theme.scss
+│  │  │  variables.scss
+│  │  │  
+│  │  └─styles
+│  │      │  index.scss
+│  │      │  
+│  │      ├─setting
+│  │      │      _border.scss
+│  │      │      _color.scss
+│  │      │      _radius.scss
+│  │      │      _space.scss
+│  │      │      _styles.scss
+│  │      │      _text.scss
+│  │      │      _variables.scss
+│  │      │      
+│  │      └─tools
+│  │              functions.scss
+│  │              
+│  ├─uni-search-bar
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-search-bar
+│  │          │  uni-search-bar.vue
+│  │          │  
+│  │          └─i18n
+│  │                  en.json
+│  │                  index.js
+│  │                  zh-Hans.json
+│  │                  zh-Hant.json
+│  │                  
+│  ├─uni-section
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-section
+│  │              uni-section.vue
+│  │              
+│  ├─uni-segmented-control
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-segmented-control
+│  │              uni-segmented-control.vue
+│  │              
+│  ├─uni-steps
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-steps
+│  │              uni-steps.vue
+│  │              
+│  ├─uni-swipe-action
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      ├─uni-swipe-action
+│  │      │      uni-swipe-action.vue
+│  │      │      
+│  │      └─uni-swipe-action-item
+│  │              bindingx.js
+│  │              isPC.js
+│  │              mpalipay.js
+│  │              mpother.js
+│  │              mpwxs.js
+│  │              render.js
+│  │              uni-swipe-action-item.vue
+│  │              wx.wxs
+│  │              
+│  ├─uni-swiper-dot
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-swiper-dot
+│  │              uni-swiper-dot.vue
+│  │              
+│  ├─uni-table
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  ├─components
+│  │  │  ├─uni-table
+│  │  │  │      uni-table.vue
+│  │  │  │      
+│  │  │  ├─uni-tbody
+│  │  │  │      uni-tbody.vue
+│  │  │  │      
+│  │  │  ├─uni-td
+│  │  │  │      uni-td.vue
+│  │  │  │      
+│  │  │  ├─uni-th
+│  │  │  │      filter-dropdown.vue
+│  │  │  │      uni-th.vue
+│  │  │  │      
+│  │  │  ├─uni-thead
+│  │  │  │      uni-thead.vue
+│  │  │  │      
+│  │  │  └─uni-tr
+│  │  │          table-checkbox.vue
+│  │  │          uni-tr.vue
+│  │  │          
+│  │  └─i18n
+│  │          en.json
+│  │          es.json
+│  │          fr.json
+│  │          index.js
+│  │          zh-Hans.json
+│  │          zh-Hant.json
+│  │          
+│  ├─uni-tag
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-tag
+│  │              uni-tag.vue
+│  │              
+│  ├─uni-test
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-test
+│  │              uni-test.vue
+│  │              
+│  ├─uni-title
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-title
+│  │              uni-title.vue
+│  │              
+│  ├─uni-tooltip
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-tooltip
+│  │              uni-tooltip.vue
+│  │              
+│  ├─uni-transition
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-transition
+│  │              createAnimation.js
+│  │              uni-transition.vue
+│  │              
+│  ├─uni-ui
+│  │  │  changelog.md
+│  │  │  package.json
+│  │  │  readme.md
+│  │  │  
+│  │  └─components
+│  │      └─uni-ui
+│  │              uni-ui.vue
+│  │              
+│  └─uview-ui
+│      │  changelog.md
+│      │  index.js
+│      │  index.scss
+│      │  LICENSE
+│      │  package.json
+│      │  README.md
+│      │  theme.scss
+│      │  
+│      ├─components
+│      │  ├─u--form
+│      │  │      u--form.vue
+│      │  │      
+│      │  ├─u--image
+│      │  │      u--image.vue
+│      │  │      
+│      │  ├─u--input
+│      │  │      u--input.vue
+│      │  │      
+│      │  ├─u--text
+│      │  │      u--text.vue
+│      │  │      
+│      │  ├─u--textarea
+│      │  │      u--textarea.vue
+│      │  │      
+│      │  ├─u-action-sheet
+│      │  │      props.js
+│      │  │      u-action-sheet.vue
+│      │  │      
+│      │  ├─u-album
+│      │  │      props.js
+│      │  │      u-album.vue
+│      │  │      
+│      │  ├─u-alert
+│      │  │      props.js
+│      │  │      u-alert.vue
+│      │  │      
+│      │  ├─u-avatar
+│      │  │      props.js
+│      │  │      u-avatar.vue
+│      │  │      
+│      │  ├─u-avatar-group
+│      │  │      props.js
+│      │  │      u-avatar-group.vue
+│      │  │      
+│      │  ├─u-back-top
+│      │  │      props.js
+│      │  │      u-back-top.vue
+│      │  │      
+│      │  ├─u-badge
+│      │  │      props.js
+│      │  │      u-badge.vue
+│      │  │      
+│      │  ├─u-button
+│      │  │      nvue.scss
+│      │  │      props.js
+│      │  │      u-button.vue
+│      │  │      vue.scss
+│      │  │      
+│      │  ├─u-calendar
+│      │  │      header.vue
+│      │  │      month.vue
+│      │  │      props.js
+│      │  │      u-calendar.vue
+│      │  │      util.js
+│      │  │      
+│      │  ├─u-car-keyboard
+│      │  │      props.js
+│      │  │      u-car-keyboard.vue
+│      │  │      
+│      │  ├─u-cell
+│      │  │      props.js
+│      │  │      u-cell.vue
+│      │  │      
+│      │  ├─u-cell-group
+│      │  │      props.js
+│      │  │      u-cell-group.vue
+│      │  │      
+│      │  ├─u-checkbox
+│      │  │      props.js
+│      │  │      u-checkbox.vue
+│      │  │      
+│      │  ├─u-checkbox-group
+│      │  │      props.js
+│      │  │      u-checkbox-group.vue
+│      │  │      
+│      │  ├─u-circle-progress
+│      │  │      props.js
+│      │  │      u-circle-progress.vue
+│      │  │      
+│      │  ├─u-code
+│      │  │      props.js
+│      │  │      u-code.vue
+│      │  │      
+│      │  ├─u-code-input
+│      │  │      props.js
+│      │  │      u-code-input.vue
+│      │  │      
+│      │  ├─u-col
+│      │  │      props.js
+│      │  │      u-col.vue
+│      │  │      
+│      │  ├─u-collapse
+│      │  │      props.js
+│      │  │      u-collapse.vue
+│      │  │      
+│      │  ├─u-collapse-item
+│      │  │      props.js
+│      │  │      u-collapse-item.vue
+│      │  │      
+│      │  ├─u-column-notice
+│      │  │      props.js
+│      │  │      u-column-notice.vue
+│      │  │      
+│      │  ├─u-count-down
+│      │  │      props.js
+│      │  │      u-count-down.vue
+│      │  │      utils.js
+│      │  │      
+│      │  ├─u-count-to
+│      │  │      props.js
+│      │  │      u-count-to.vue
+│      │  │      
+│      │  ├─u-datetime-picker
+│      │  │      props.js
+│      │  │      u-datetime-picker.vue
+│      │  │      
+│      │  ├─u-divider
+│      │  │      props.js
+│      │  │      u-divider.vue
+│      │  │      
+│      │  ├─u-dropdown
+│      │  │      props.js
+│      │  │      u-dropdown.vue
+│      │  │      
+│      │  ├─u-dropdown-item
+│      │  │      props.js
+│      │  │      u-dropdown-item.vue
+│      │  │      
+│      │  ├─u-empty
+│      │  │      props.js
+│      │  │      u-empty.vue
+│      │  │      
+│      │  ├─u-form
+│      │  │      props.js
+│      │  │      u-form.vue
+│      │  │      
+│      │  ├─u-form-item
+│      │  │      props.js
+│      │  │      u-form-item.vue
+│      │  │      
+│      │  ├─u-gap
+│      │  │      props.js
+│      │  │      u-gap.vue
+│      │  │      
+│      │  ├─u-grid
+│      │  │      props.js
+│      │  │      u-grid.vue
+│      │  │      
+│      │  ├─u-grid-item
+│      │  │      props.js
+│      │  │      u-grid-item.vue
+│      │  │      
+│      │  ├─u-icon
+│      │  │      icons.js
+│      │  │      props.js
+│      │  │      u-icon.vue
+│      │  │      
+│      │  ├─u-image
+│      │  │      props.js
+│      │  │      u-image.vue
+│      │  │      
+│      │  ├─u-index-anchor
+│      │  │      props.js
+│      │  │      u-index-anchor.vue
+│      │  │      
+│      │  ├─u-index-item
+│      │  │      props.js
+│      │  │      u-index-item.vue
+│      │  │      
+│      │  ├─u-index-list
+│      │  │      props.js
+│      │  │      u-index-list.vue
+│      │  │      
+│      │  ├─u-input
+│      │  │      props.js
+│      │  │      u-input.vue
+│      │  │      
+│      │  ├─u-keyboard
+│      │  │      props.js
+│      │  │      u-keyboard.vue
+│      │  │      
+│      │  ├─u-line
+│      │  │      props.js
+│      │  │      u-line.vue
+│      │  │      
+│      │  ├─u-line-progress
+│      │  │      props.js
+│      │  │      u-line-progress.vue
+│      │  │      
+│      │  ├─u-link
+│      │  │      props.js
+│      │  │      u-link.vue
+│      │  │      
+│      │  ├─u-list
+│      │  │      props.js
+│      │  │      u-list.vue
+│      │  │      
+│      │  ├─u-list-item
+│      │  │      props.js
+│      │  │      u-list-item.vue
+│      │  │      
+│      │  ├─u-loading-icon
+│      │  │      props.js
+│      │  │      u-loading-icon.vue
+│      │  │      
+│      │  ├─u-loading-page
+│      │  │      props.js
+│      │  │      u-loading-page.vue
+│      │  │      
+│      │  ├─u-loadmore
+│      │  │      props.js
+│      │  │      u-loadmore.vue
+│      │  │      
+│      │  ├─u-modal
+│      │  │      props.js
+│      │  │      u-modal.vue
+│      │  │      
+│      │  ├─u-navbar
+│      │  │      props.js
+│      │  │      u-navbar.vue
+│      │  │      
+│      │  ├─u-no-network
+│      │  │      props.js
+│      │  │      u-no-network.vue
+│      │  │      
+│      │  ├─u-notice-bar
+│      │  │      props.js
+│      │  │      u-notice-bar.vue
+│      │  │      
+│      │  ├─u-notify
+│      │  │      props.js
+│      │  │      u-notify.vue
+│      │  │      
+│      │  ├─u-number-box
+│      │  │      props.js
+│      │  │      u-number-box.vue
+│      │  │      
+│      │  ├─u-number-keyboard
+│      │  │      props.js
+│      │  │      u-number-keyboard.vue
+│      │  │      
+│      │  ├─u-overlay
+│      │  │      props.js
+│      │  │      u-overlay.vue
+│      │  │      
+│      │  ├─u-parse
+│      │  │  │  parser.js
+│      │  │  │  props.js
+│      │  │  │  u-parse.vue
+│      │  │  │  
+│      │  │  └─node
+│      │  │          node.vue
+│      │  │          
+│      │  ├─u-picker
+│      │  │      props.js
+│      │  │      u-picker.vue
+│      │  │      
+│      │  ├─u-picker-column
+│      │  │      props.js
+│      │  │      u-picker-column.vue
+│      │  │      
+│      │  ├─u-popup
+│      │  │      props.js
+│      │  │      u-popup.vue
+│      │  │      
+│      │  ├─u-radio
+│      │  │      props.js
+│      │  │      u-radio.vue
+│      │  │      
+│      │  ├─u-radio-group
+│      │  │      props.js
+│      │  │      u-radio-group.vue
+│      │  │      
+│      │  ├─u-rate
+│      │  │      props.js
+│      │  │      u-rate.vue
+│      │  │      
+│      │  ├─u-read-more
+│      │  │      props.js
+│      │  │      u-read-more.vue
+│      │  │      
+│      │  ├─u-row
+│      │  │      props.js
+│      │  │      u-row.vue
+│      │  │      
+│      │  ├─u-row-notice
+│      │  │      props.js
+│      │  │      u-row-notice.vue
+│      │  │      
+│      │  ├─u-safe-bottom
+│      │  │      props.js
+│      │  │      u-safe-bottom.vue
+│      │  │      
+│      │  ├─u-scroll-list
+│      │  │      nvue.js
+│      │  │      other.js
+│      │  │      props.js
+│      │  │      scrollWxs.wxs
+│      │  │      u-scroll-list.vue
+│      │  │      
+│      │  ├─u-search
+│      │  │      props.js
+│      │  │      u-search.vue
+│      │  │      
+│      │  ├─u-skeleton
+│      │  │      props.js
+│      │  │      u-skeleton.vue
+│      │  │      
+│      │  ├─u-slider
+│      │  │      mpother.js
+│      │  │      mpwxs.js
+│      │  │      mpwxs.wxs
+│      │  │      nvue - 副本.js
+│      │  │      nvue.js
+│      │  │      props.js
+│      │  │      u-slider.vue
+│      │  │      
+│      │  ├─u-status-bar
+│      │  │      props.js
+│      │  │      u-status-bar.vue
+│      │  │      
+│      │  ├─u-steps
+│      │  │      props.js
+│      │  │      u-steps.vue
+│      │  │      
+│      │  ├─u-steps-item
+│      │  │      props.js
+│      │  │      u-steps-item.vue
+│      │  │      
+│      │  ├─u-sticky
+│      │  │      props.js
+│      │  │      u-sticky.vue
+│      │  │      
+│      │  ├─u-subsection
+│      │  │      props.js
+│      │  │      u-subsection.vue
+│      │  │      
+│      │  ├─u-swipe-action
+│      │  │      props.js
+│      │  │      u-swipe-action.vue
+│      │  │      
+│      │  ├─u-swipe-action-item
+│      │  │      index - backup.wxs
+│      │  │      index.wxs
+│      │  │      nvue - backup.js
+│      │  │      nvue.js
+│      │  │      props.js
+│      │  │      u-swipe-action-item.vue
+│      │  │      wxs.js
+│      │  │      
+│      │  ├─u-swiper
+│      │  │      props.js
+│      │  │      u-swiper.vue
+│      │  │      
+│      │  ├─u-swiper-indicator
+│      │  │      props.js
+│      │  │      u-swiper-indicator.vue
+│      │  │      
+│      │  ├─u-switch
+│      │  │      props.js
+│      │  │      u-switch.vue
+│      │  │      
+│      │  ├─u-tabbar
+│      │  │      props.js
+│      │  │      u-tabbar.vue
+│      │  │      
+│      │  ├─u-tabbar-item
+│      │  │      props.js
+│      │  │      u-tabbar-item.vue
+│      │  │      
+│      │  ├─u-table
+│      │  │      props.js
+│      │  │      u-table.vue
+│      │  │      
+│      │  ├─u-tabs
+│      │  │      props.js
+│      │  │      u-tabs.vue
+│      │  │      
+│      │  ├─u-tabs-item
+│      │  │      props.js
+│      │  │      u-tabs-item.vue
+│      │  │      
+│      │  ├─u-tag
+│      │  │      props.js
+│      │  │      u-tag.vue
+│      │  │      
+│      │  ├─u-td
+│      │  │      props.js
+│      │  │      u-td.vue
+│      │  │      
+│      │  ├─u-text
+│      │  │      props.js
+│      │  │      u-text.vue
+│      │  │      value.js
+│      │  │      
+│      │  ├─u-textarea
+│      │  │      props.js
+│      │  │      u-textarea.vue
+│      │  │      
+│      │  ├─u-toast
+│      │  │      u-toast.vue
+│      │  │      
+│      │  ├─u-toolbar
+│      │  │      props.js
+│      │  │      u-toolbar.vue
+│      │  │      
+│      │  ├─u-tooltip
+│      │  │      clipboard.min.js
+│      │  │      props.js
+│      │  │      u-tooltip.vue
+│      │  │      
+│      │  ├─u-tr
+│      │  │      props.js
+│      │  │      u-tr.vue
+│      │  │      
+│      │  ├─u-transition
+│      │  │      nvue.ani-map.js
+│      │  │      props.js
+│      │  │      transition.js
+│      │  │      u-transition.vue
+│      │  │      vue.ani-style.scss
+│      │  │      
+│      │  ├─u-upload
+│      │  │      mixin.js
+│      │  │      props.js
+│      │  │      u-upload.vue
+│      │  │      utils.js
+│      │  │      
+│      │  └─uview-ui
+│      │          uview-ui.vue
+│      │          
+│      └─libs
+│          ├─config
+│          │  │  color.js
+│          │  │  config.js
+│          │  │  props.js
+│          │  │  zIndex.js
+│          │  │  
+│          │  └─props
+│          │          actionSheet.js
+│          │          album.js
+│          │          alert.js
+│          │          avatar.js
+│          │          avatarGroup.js
+│          │          backtop.js
+│          │          badge.js
+│          │          button.js
+│          │          calendar.js
+│          │          carKeyboard.js
+│          │          cell.js
+│          │          cellGroup.js
+│          │          checkbox.js
+│          │          checkboxGroup.js
+│          │          circleProgress.js
+│          │          code.js
+│          │          codeInput.js
+│          │          col.js
+│          │          collapse.js
+│          │          collapseItem.js
+│          │          columnNotice.js
+│          │          countDown.js
+│          │          countTo.js
+│          │          datetimePicker.js
+│          │          divider.js
+│          │          empty.js
+│          │          form.js
+│          │          formItem.js
+│          │          gap.js
+│          │          grid.js
+│          │          gridItem.js
+│          │          icon.js
+│          │          image.js
+│          │          indexAnchor.js
+│          │          indexList.js
+│          │          input.js
+│          │          keyboard.js
+│          │          line.js
+│          │          lineProgress.js
+│          │          link.js
+│          │          list.js
+│          │          listItem.js
+│          │          loadingIcon.js
+│          │          loadingPage.js
+│          │          loadmore.js
+│          │          modal.js
+│          │          navbar.js
+│          │          noNetwork.js
+│          │          noticeBar.js
+│          │          notify.js
+│          │          numberBox.js
+│          │          numberKeyboard.js
+│          │          overlay.js
+│          │          parse.js
+│          │          picker.js
+│          │          popup.js
+│          │          radio.js
+│          │          radioGroup.js
+│          │          rate.js
+│          │          readMore.js
+│          │          row.js
+│          │          rowNotice.js
+│          │          scrollList.js
+│          │          search.js
+│          │          section.js
+│          │          skeleton.js
+│          │          slider.js
+│          │          statusBar.js
+│          │          steps.js
+│          │          stepsItem.js
+│          │          sticky.js
+│          │          subsection.js
+│          │          swipeAction.js
+│          │          swipeActionItem.js
+│          │          swiper.js
+│          │          swipterIndicator.js
+│          │          switch.js
+│          │          tabbar.js
+│          │          tabbarItem.js
+│          │          tabs.js
+│          │          tag.js
+│          │          text.js
+│          │          textarea.js
+│          │          toast.js
+│          │          toolbar.js
+│          │          tooltip.js
+│          │          transition.js
+│          │          upload.js
+│          │          
+│          ├─css
+│          │      color.scss
+│          │      common.scss
+│          │      components.scss
+│          │      flex.scss
+│          │      h5.scss
+│          │      mixin.scss
+│          │      mp.scss
+│          │      nvue.scss
+│          │      vue.scss
+│          │      
+│          ├─function
+│          │      colorGradient.js
+│          │      debounce.js
+│          │      digit.js
+│          │      index.js
+│          │      platform.js
+│          │      test.js
+│          │      throttle.js
+│          │      
+│          ├─luch-request
+│          │  │  index.d.ts
+│          │  │  index.js
+│          │  │  utils.js
+│          │  │  
+│          │  ├─adapters
+│          │  │      index.js
+│          │  │      
+│          │  ├─core
+│          │  │      buildFullPath.js
+│          │  │      defaults.js
+│          │  │      dispatchRequest.js
+│          │  │      InterceptorManager.js
+│          │  │      mergeConfig.js
+│          │  │      Request.js
+│          │  │      settle.js
+│          │  │      
+│          │  ├─helpers
+│          │  │      buildURL.js
+│          │  │      combineURLs.js
+│          │  │      isAbsoluteURL.js
+│          │  │      
+│          │  └─utils
+│          │          clone.js
+│          │          
+│          ├─mixin
+│          │      button.js
+│          │      mixin.js
+│          │      mpMixin.js
+│          │      mpShare.js
+│          │      openType.js
+│          │      style.js
+│          │      touch.js
+│          │      
+│          └─util
+│                  async-validator.js
+│                  calendar.js
+│                  dayjs.js
+│                  emitter.js
+│                  route.js
+│                  
+└─unpackage
+    └─dist
+        ├─build
+        │  ├─.automator
+        │  │  ├─h5
+        │  │  │      .automator.json
+        │  │  │      
+        │  │  └─mp-weixin
+        │  │          .automator.json
+        │  │          
+        │  ├─mp-weixin
+        │  │  │  .gitignore
+        │  │  │  app.js
+        │  │  │  app.json
+        │  │  │  app.wxss
+        │  │  │  project.config.json
+        │  │  │  project.private.config.json
+        │  │  │  
+        │  │  ├─common
+        │  │  │      main.js
+        │  │  │      main.wxss
+        │  │  │      runtime.js
+        │  │  │      vendor.js
+        │  │  │      
+        │  │  ├─pages
+        │  │  │  ├─detail
+        │  │  │  │      detail.js
+        │  │  │  │      detail.json
+        │  │  │  │      detail.wxml
+        │  │  │  │      detail.wxss
+        │  │  │  │      
+        │  │  │  ├─edit
+        │  │  │  │      edit.js
+        │  │  │  │      edit.json
+        │  │  │  │      edit.wxml
+        │  │  │  │      edit.wxss
+        │  │  │  │      
+        │  │  │  ├─index
+        │  │  │  │      index.js
+        │  │  │  │      index.json
+        │  │  │  │      index.wxml
+        │  │  │  │      index.wxss
+        │  │  │  │      
+        │  │  │  ├─search
+        │  │  │  │      search.js
+        │  │  │  │      search.json
+        │  │  │  │      search.wxml
+        │  │  │  │      search.wxss
+        │  │  │  │      
+        │  │  │  ├─test
+        │  │  │  │      test.js
+        │  │  │  │      test.json
+        │  │  │  │      test.wxml
+        │  │  │  │      
+        │  │  │  ├─ToDo
+        │  │  │  │      ToDo.js
+        │  │  │  │      ToDo.json
+        │  │  │  │      ToDo.wxml
+        │  │  │  │      
+        │  │  │  └─user
+        │  │  │          user.js
+        │  │  │          user.json
+        │  │  │          user.wxml
+        │  │  │          
+        │  │  ├─static
+        │  │  │  ├─iconfont
+        │  │  │  │      demo.css
+        │  │  │  │      demo_index.html
+        │  │  │  │      iconfont.css
+        │  │  │  │      iconfont.js
+        │  │  │  │      iconfont.json
+        │  │  │  │      iconfont.ttf
+        │  │  │  │      iconfont.woff
+        │  │  │  │      iconfont.woff2
+        │  │  │  │      
+        │  │  │  └─images
+        │  │  │          0.jpg
+        │  │  │          history.png
+        │  │  │          home-h.png
+        │  │  │          home.png
+        │  │  │          logo.png
+        │  │  │          mylogo.png
+        │  │  │          no-result.png
+        │  │  │          nodata.png
+        │  │  │          nohis.png
+        │  │  │          nopic.jpg
+        │  │  │          notebook.png
+        │  │  │          notes-h.png
+        │  │  │          notes.png
+        │  │  │          select.png
+        │  │  │          todo-h.png
+        │  │  │          todo.png
+        │  │  │          user-h.png
+        │  │  │          user.png
+        │  │  │          
+        │  │  └─uni_modules
+        │  │      ├─uni-dateformat
+        │  │      │  └─components
+        │  │      │      └─uni-dateformat
+        │  │      │              uni-dateformat.js
+        │  │      │              uni-dateformat.json
+        │  │      │              uni-dateformat.wxml
+        │  │      │              
+        │  │      ├─uni-drawer
+        │  │      │  └─components
+        │  │      │      └─uni-drawer
+        │  │      │              uni-drawer.js
+        │  │      │              uni-drawer.json
+        │  │      │              uni-drawer.wxml
+        │  │      │              uni-drawer.wxss
+        │  │      │              
+        │  │      ├─uni-icons
+        │  │      │  └─components
+        │  │      │      └─uni-icons
+        │  │      │              uni-icons.js
+        │  │      │              uni-icons.json
+        │  │      │              uni-icons.wxml
+        │  │      │              uni-icons.wxss
+        │  │      │              
+        │  │      ├─uni-nav-bar
+        │  │      │  └─components
+        │  │      │      └─uni-nav-bar
+        │  │      │              uni-nav-bar.js
+        │  │      │              uni-nav-bar.json
+        │  │      │              uni-nav-bar.wxml
+        │  │      │              uni-nav-bar.wxss
+        │  │      │              uni-status-bar.js
+        │  │      │              uni-status-bar.json
+        │  │      │              uni-status-bar.wxml
+        │  │      │              uni-status-bar.wxss
+        │  │      │              
+        │  │      ├─uni-search-bar
+        │  │      │  └─components
+        │  │      │      └─uni-search-bar
+        │  │      │              uni-search-bar.js
+        │  │      │              uni-search-bar.json
+        │  │      │              uni-search-bar.wxml
+        │  │      │              uni-search-bar.wxss
+        │  │      │              
+        │  │      ├─uni-transition
+        │  │      │  └─components
+        │  │      │      └─uni-transition
+        │  │      │              uni-transition.js
+        │  │      │              uni-transition.json
+        │  │      │              uni-transition.wxml
+        │  │      │              
+        │  │      └─uview-ui
+        │  │          └─components
+        │  │              ├─u-icon
+        │  │              │      u-icon.js
+        │  │              │      u-icon.json
+        │  │              │      u-icon.wxml
+        │  │              │      u-icon.wxss
+        │  │              │      
+        │  │              ├─u-line
+        │  │              │      u-line.js
+        │  │              │      u-line.json
+        │  │              │      u-line.wxml
+        │  │              │      u-line.wxss
+        │  │              │      
+        │  │              ├─u-loading-icon
+        │  │              │      u-loading-icon.js
+        │  │              │      u-loading-icon.json
+        │  │              │      u-loading-icon.wxml
+        │  │              │      u-loading-icon.wxss
+        │  │              │      
+        │  │              ├─u-loadmore
+        │  │              │      u-loadmore.js
+        │  │              │      u-loadmore.json
+        │  │              │      u-loadmore.wxml
+        │  │              │      u-loadmore.wxss
+        │  │              │      
+        │  │              └─u-skeleton
+        │  │                      u-skeleton.js
+        │  │                      u-skeleton.json
+        │  │                      u-skeleton.wxml
+        │  │                      u-skeleton.wxss
+        │  │                      
+        │  └─uni-app-homework-zhengzirui
+        │      │  index.html
+        │      │  
+        │      └─static
+        │          │  index.5841170f.css
+        │          │  
+        │          ├─fonts
+        │          │      iconfont.25198673.ttf
+        │          │      iconfont.e61e9a79.woff
+        │          │      iconfont.f602f1ea.woff2
+        │          │      uniicons.b6d3756e.ttf
+        │          │      
+        │          ├─iconfont
+        │          │      demo.css
+        │          │      demo_index.html
+        │          │      iconfont.css
+        │          │      iconfont.js
+        │          │      iconfont.json
+        │          │      iconfont.ttf
+        │          │      iconfont.woff
+        │          │      iconfont.woff2
+        │          │      
+        │          ├─images
+        │          │      0.jpg
+        │          │      history.png
+        │          │      home-h.png
+        │          │      home.png
+        │          │      logo.png
+        │          │      mylogo.png
+        │          │      no-result.png
+        │          │      nodata.png
+        │          │      nohis.png
+        │          │      nopic.jpg
+        │          │      notebook.png
+        │          │      notes-h.png
+        │          │      notes.png
+        │          │      select.png
+        │          │      todo-h.png
+        │          │      todo.png
+        │          │      user-h.png
+        │          │      user.png
+        │          │      
+        │          ├─img
+        │          │      nodata.56986da7.png
+        │          │      
+        │          └─js
+        │                  chunk-vendors.7470c4d0.js
+        │                  index.cbf246e6.js
+        │                  pages-detail-detail.be11df57.js
+        │                  pages-detail-detail~pages-index-index~pages-search-search.a3a82448.js
+        │                  pages-edit-edit.03311b0f.js
+        │                  pages-index-index.d72e74dd.js
+        │                  pages-index-index~pages-search-search.2f9e7491.js
+        │                  pages-search-search.a249b402.js
+        │                  pages-test-test.56e204ce.js
+        │                  pages-ToDo-ToDo.d09f1f9e.js
+        │                  pages-user-user.fc86b19a.js
+        │                  
+        └─dev
+            ├─.automator
+            │  ├─app-plus
+            │  │      .automator.json
+            │  │      
+            │  └─mp-weixin
+            │          .automator.json
+            │          
+            ├─.sourcemap
+            │  └─mp-weixin
+            │      ├─common
+            │      │      main.js.map
+            │      │      runtime.js.map
+            │      │      vendor.js.map
+            │      │      
+            │      ├─pages
+            │      │  ├─addNote
+            │      │  │      addNote.js.map
+            │      │  │      
+            │      │  ├─detail
+            │      │  │      detail.js.map
+            │      │  │      
+            │      │  ├─edit
+            │      │  │      edit.js.map
+            │      │  │      
+            │      │  ├─index
+            │      │  │      index.js.map
+            │      │  │      
+            │      │  ├─search
+            │      │  │      search.js.map
+            │      │  │      
+            │      │  ├─test
+            │      │  │      test.js.map
+            │      │  │      
+            │      │  ├─ToDo
+            │      │  │      ToDo.js.map
+            │      │  │      
+            │      │  └─user
+            │      │          user.js.map
+            │      │          
+            │      └─uni_modules
+            │          ├─mp-html
+            │          │  └─components
+            │          │      └─mp-html
+            │          │          │  mp-html.js.map
+            │          │          │  
+            │          │          └─node
+            │          │                  node.js.map
+            │          │                  
+            │          ├─uni-dateformat
+            │          │  └─components
+            │          │      └─uni-dateformat
+            │          │              uni-dateformat.js.map
+            │          │              
+            │          ├─uni-drawer
+            │          │  └─components
+            │          │      └─uni-drawer
+            │          │              uni-drawer.js.map
+            │          │              
+            │          ├─uni-icons
+            │          │  └─components
+            │          │      └─uni-icons
+            │          │              uni-icons.js.map
+            │          │              
+            │          ├─uni-link
+            │          │  └─components
+            │          │      └─uni-link
+            │          │              uni-link.js.map
+            │          │              
+            │          ├─uni-nav-bar
+            │          │  └─components
+            │          │      └─uni-nav-bar
+            │          │              uni-nav-bar.js.map
+            │          │              uni-status-bar.js.map
+            │          │              
+            │          ├─uni-search-bar
+            │          │  └─components
+            │          │      └─uni-search-bar
+            │          │              uni-search-bar.js.map
+            │          │              
+            │          ├─uni-transition
+            │          │  └─components
+            │          │      └─uni-transition
+            │          │              uni-transition.js.map
+            │          │              
+            │          └─uview-ui
+            │              └─components
+            │                  ├─u-button
+            │                  │      u-button.js.map
+            │                  │      
+            │                  ├─u-icon
+            │                  │      u-icon.js.map
+            │                  │      
+            │                  ├─u-line
+            │                  │      u-line.js.map
+            │                  │      
+            │                  ├─u-loading-icon
+            │                  │      u-loading-icon.js.map
+            │                  │      
+            │                  ├─u-loadmore
+            │                  │      u-loadmore.js.map
+            │                  │      
+            │                  └─u-skeleton
+            │                          u-skeleton.js.map
+            │                          
+            ├─app-plus
+            │  │  app-config-service.js
+            │  │  app-config.js
+            │  │  app-service.js
+            │  │  app-view.js
+            │  │  manifest.json
+            │  │  view.css
+            │  │  view.umd.min.js
+            │  │  __uniappchooselocation.js
+            │  │  __uniapperror.png
+            │  │  __uniappes6.js
+            │  │  __uniappopenlocation.js
+            │  │  __uniapppicker.js
+            │  │  __uniappquill.js
+            │  │  __uniappquillimageresize.js
+            │  │  __uniappscan.js
+            │  │  __uniappsuccess.png
+            │  │  __uniappview.html
+            │  │  
+            │  ├─static
+            │  │  └─images
+            │  │          0.jpg
+            │  │          history.png
+            │  │          home-h.png
+            │  │          home.png
+            │  │          logo.png
+            │  │          mylogo.png
+            │  │          no-result.png
+            │  │          nodata.png
+            │  │          nohis.png
+            │  │          nopic.jpg
+            │  │          notebook.png
+            │  │          notes-h.png
+            │  │          notes.png
+            │  │          todo-h.png
+            │  │          todo.png
+            │  │          user-h.png
+            │  │          user.png
+            │  │          
+            │  └─uni_modules
+            │      └─uni-icons
+            │          └─components
+            │              └─uni-icons
+            │                      uniicons.ttf
+            │                      
+            └─mp-weixin
+                │  app.js
+                │  app.json
+                │  app.wxss
+                │  project.config.json
+                │  project.private.config.json
+                │  
+                ├─common
+                │      main.js
+                │      main.wxss
+                │      runtime.js
+                │      vendor.js
+                │      
+                ├─pages
+                │  ├─detail
+                │  │      detail.js
+                │  │      detail.json
+                │  │      detail.wxml
+                │  │      detail.wxss
+                │  │      
+                │  ├─edit
+                │  │      edit.js
+                │  │      edit.json
+                │  │      edit.wxml
+                │  │      edit.wxss
+                │  │      
+                │  ├─index
+                │  │      index.js
+                │  │      index.json
+                │  │      index.wxml
+                │  │      index.wxss
+                │  │      
+                │  ├─search
+                │  │      search.js
+                │  │      search.json
+                │  │      search.wxml
+                │  │      search.wxss
+                │  │      
+                │  ├─test
+                │  │      test.js
+                │  │      test.json
+                │  │      test.wxml
+                │  │      
+                │  ├─ToDo
+                │  │      ToDo.js
+                │  │      ToDo.json
+                │  │      ToDo.wxml
+                │  │      
+                │  └─user
+                │          user.js
+                │          user.json
+                │          user.wxml
+                │          
+                ├─static
+                │  ├─iconfont
+                │  │      demo.css
+                │  │      demo_index.html
+                │  │      iconfont.css
+                │  │      iconfont.js
+                │  │      iconfont.json
+                │  │      iconfont.ttf
+                │  │      iconfont.woff
+                │  │      iconfont.woff2
+                │  │      
+                │  └─images
+                │          0.jpg
+                │          history.png
+                │          home-h.png
+                │          home.png
+                │          logo.png
+                │          mylogo.png
+                │          no-result.png
+                │          nodata.png
+                │          nohis.png
+                │          nopic.jpg
+                │          notebook.png
+                │          notes-h.png
+                │          notes.png
+                │          select.png
+                │          todo-h.png
+                │          todo.png
+                │          user-h.png
+                │          user.png
+                │          
+                └─uni_modules
+                    ├─uni-dateformat
+                    │  └─components
+                    │      └─uni-dateformat
+                    │              uni-dateformat.js
+                    │              uni-dateformat.json
+                    │              uni-dateformat.wxml
+                    │              
+                    ├─uni-drawer
+                    │  └─components
+                    │      └─uni-drawer
+                    │              uni-drawer.js
+                    │              uni-drawer.json
+                    │              uni-drawer.wxml
+                    │              uni-drawer.wxss
+                    │              
+                    ├─uni-icons
+                    │  └─components
+                    │      └─uni-icons
+                    │              uni-icons.js
+                    │              uni-icons.json
+                    │              uni-icons.wxml
+                    │              uni-icons.wxss
+                    │              
+                    ├─uni-nav-bar
+                    │  └─components
+                    │      └─uni-nav-bar
+                    │              uni-nav-bar.js
+                    │              uni-nav-bar.json
+                    │              uni-nav-bar.wxml
+                    │              uni-nav-bar.wxss
+                    │              uni-status-bar.js
+                    │              uni-status-bar.json
+                    │              uni-status-bar.wxml
+                    │              uni-status-bar.wxss
+                    │              
+                    ├─uni-search-bar
+                    │  └─components
+                    │      └─uni-search-bar
+                    │              uni-search-bar.js
+                    │              uni-search-bar.json
+                    │              uni-search-bar.wxml
+                    │              uni-search-bar.wxss
+                    │              
+                    ├─uni-transition
+                    │  └─components
+                    │      └─uni-transition
+                    │              uni-transition.js
+                    │              uni-transition.json
+                    │              uni-transition.wxml
+                    │              
+                    └─uview-ui
+                        └─components
+                            ├─u-icon
+                            │      u-icon.js
+                            │      u-icon.json
+                            │      u-icon.wxml
+                            │      u-icon.wxss
+                            │      
+                            ├─u-line
+                            │      u-line.js
+                            │      u-line.json
+                            │      u-line.wxml
+                            │      u-line.wxss
+                            │      
+                            ├─u-loading-icon
+                            │      u-loading-icon.js
+                            │      u-loading-icon.json
+                            │      u-loading-icon.wxml
+                            │      u-loading-icon.wxss
+                            │      
+                            ├─u-loadmore
+                            │      u-loadmore.js
+                            │      u-loadmore.json
+                            │      u-loadmore.wxml
+                            │      u-loadmore.wxss
+                            │      
+                            └─u-skeleton
+                                    u-skeleton.js
+                                    u-skeleton.json
+                                    u-skeleton.wxml
+                                    u-skeleton.wxss
+                                    

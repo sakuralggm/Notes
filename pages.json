@@ -1,0 +1,82 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app",
+			"navigationStyle": "custom",
+			"disableScroll": true
+		}
+	}, {
+		"path": "pages/ToDo/ToDo",
+		"style": {
+			"navigationBarTitleText": "待办",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/user/user",
+		"style": {
+			"navigationBarTitleText": "个人中心",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText": "搜索页面",
+			"enablePullDownRefresh": false,
+			"disableScroll": true
+		}
+
+	}, {
+		"path": "pages/test/test",
+		"style": {
+			"navigationBarTitleText": "测试",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/edit/edit",
+		"style": {
+			"navigationBarTitleText": "创建笔记",
+			"enablePullDownRefresh": false,
+			"app-plus": {
+				"softinputMode": "adjustResize"
+			}
+		}
+
+	}, {
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText": "笔记",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#3cc51f",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 		"pagePath": "pages/index/index",
+	// 		// "iconPath": "static/image/icon_component.png",
+	// 		// "selectedIconPath": "static/image/icon_component_HL.png",
+	// 		"text": "笔记"
+	// 	}, {
+	// 		"pagePath": "pages/test/test",
+	// 		// "iconPath": "static/image/icon_API.png",
+	// 		// "selectedIconPath": "static/image/icon_API_HL.png",
+	// 		"text": "测试"
+	// 	}]
+	// }
+}

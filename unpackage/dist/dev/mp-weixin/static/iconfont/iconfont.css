@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3855984 */
+  src: url('@/static/iconfont/iconfont.woff2?t=1673321357514') format('woff2'),
+       url('@/static/iconfont/iconfont.woff?t=1673321357514') format('woff'),
+       url('@/static/iconfont/iconfont.ttf?t=1673321357514') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-top:before {
+  content: "\e603";
+}
+
+.icon-zitibeijingse:before {
+  content: "\e66d";
+}
+
+.icon-zitibeijingse-copy:before {
+  content: "\ec86";
+}
+
+.icon-wenziyanse:before {
+  content: "\e602";
+}
+
+.icon-checkbox-full:before {
+  content: "\ea6f";
+}
+
+.icon-shouhangsuojin:before {
+  content: "\e65b";
+}
+
+.icon-qingkong:before {
+  content: "\e678";
+}
+
+.icon-daibanshixiang:before {
+  content: "\ec4e";
+}
+
+.icon-zitixiahuaxian:before {
+  content: "\ec85";
+}
+
+.icon-about:before {
+  content: "\e606";
+}
+
+.icon-alignBothSides:before {
+  content: "\e607";
+}
+
+.icon-redo:before {
+  content: "\e609";
+}
+
+.icon-undo:before {
+  content: "\e60a";
+}
+
+.icon-hr:before {
+  content: "\e60c";
+}
+
+.icon-bold:before {
+  content: "\e60e";
+}
+
+.icon-strikethrough:before {
+  content: "\e611";
+}
+
+.icon-orderedList:before {
+  content: "\e612";
+}
+
+.icon-italic:before {
+  content: "\e61c";
+}
+
+.icon-title:before {
+  content: "\e61d";
+}
+
+.icon-unorderedList:before {
+  content: "\e620";
+}
+
+.icon-alignLeft:before {
+  content: "\e621";
+}
+
+.icon-alignRight:before {
+  content: "\e622";
+}
+
+.icon-help:before {
+  content: "\e626";
+}
+
+.icon-image:before {
+  content: "\e629";
+}
+
+.icon-center:before {
+  content: "\e62e";
+}
+
+.icon-h3:before {
+  content: "\e60b";
+}
+
+.icon-h5:before {
+  content: "\e60d";
+}
+
+.icon-h2:before {
+  content: "\e61a";
+}
+
+.icon-h6:before {
+  content: "\e61b";
+}
+
+.icon-h1:before {
+  content: "\e623";
+}
+
+.icon-h4:before {
+  content: "\e624";
+}
+
+.icon-gouxuan:before {
+  content: "\e648";
+}
+
+.icon-shu:before {
+  content: "\e662";
+}
+
+.icon-my:before {
+  content: "\e608";
+}
+
+.icon-bijiben:before {
+  content: "\e650";
+}
+
+.icon-sousuojieguo:before {
+  content: "\e664";
+}
+
